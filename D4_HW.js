@@ -9,17 +9,7 @@ ASSIGNMENT RULES
 /* EXERCISE 1
 Write a function "area" which receives 2 parameters (l1,l2) and calculates the area of the associated rectangle.
 */
-console.log("----------EXERCISE EXTRA 8----------");
 
-const bark = function () {
-  console.log("owow");
-};
-
-const myVar = bark();
-console.log(myVar);
-
-console.log(
-  "------------------------------------\n\n"
 ); /* EXERCISE 2
 Write a function "crazySum" which receives two integers. It should return the sum of those two values, but if the two values are the same then it should return their sum multiplied by 3.
 */
