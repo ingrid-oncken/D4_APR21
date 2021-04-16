@@ -65,6 +65,7 @@ let difFunc = crazyDiff(nSubstract, 19);
 console.log(`The crazyDiff of ${nSubstract} and 19 is equal to ${difFunc}`);
 
 console.log("-----------------------------\n\n");
+
 /* EXERCISE 4
 Write a function "boundary" which accept an integer n and returns true if n is within 20 and 100 (included) or if it's equal to 400.
 */
@@ -72,11 +73,11 @@ Write a function "boundary" which accept an integer n and returns true if n is w
 console.log("----------EXERCISE 4----------");
 
 const boundary = function (n) {
-  (20 <= n && n <= 100) || n === 400 ? console.log(true) : console.log(false);
+  return (20 <= n && n <= 100) || n === 400;
 };
 
-boundary(3);
-boundary(33);
+console.log(boundary(3));
+console.log(boundary(33));
 boundary(333);
 boundary(400);
 
@@ -114,6 +115,8 @@ const check3and7 = function (numero) {
 };
 console.log(`Is ${numero} divisible by 3 or 7?`);
 check3and7(numero);
+
+// I should make possible to specifically expose if the number is divisible by or by 7
 
 console.log("-----------------------------\n\n");
 
